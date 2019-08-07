@@ -1,0 +1,262 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4, auto);
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.biodata{
+    grid-column: 2/-1;
+    background: white;
+    color: #3d3d3d;
+}
+
+.mypic{
+    width: 100%;
+}
+
+h2{
+    padding-left: 5%;
+    padding-top: 10%;
+    color: #009bde;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.am{
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.5em;
+}
+
+.organisation{
+    grid-column: 2/-1;
+    grid-row: 2/3;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px;
+    height: 100%;
+}
+
+.hdorganisation{
+    grid-column: 1/2;
+    background: #e6e7e8;
+    font-weight: bold;
+    color: #3d3d3d;
+    padding-left: 5%;
+    letter-spacing: 3px;
+    padding-top: 2.5%;
+}
+
+.detailorg{
+    padding-left:3%;
+    color: #3d3d3d;
+    line-height: 1.5em;
+}
+.education{
+    grid-column: 2/-1;
+    grid-row: 3/4;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px;
+    height: 100%;
+
+}
+
+.hdedu{
+    grid-column: 1/2;
+    background: #e6e7e8;
+    font-weight: bold;
+    color: #3d3d3d;
+    padding-left: 5%;
+    letter-spacing: 3px;
+    padding-top: 2.5%;
+}
+
+.detailedu{
+    padding-left: 5%;
+    color: #3d3d3d;
+}
+.certi{
+    grid-column: 2/-1;
+    grid-row: 4/5;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px;
+    height: 100%;
+}
+
+.hdcerti{
+    grid-column: 1/2;
+    background: #e6e7e8;
+    font-weight: bold;
+    color: #3d3d3d;
+    padding-left: 5%;
+    letter-spacing: 3px;
+    padding-top: 2.5%;
+}
+.detailcerti{
+    padding-left: 5%;
+    color: #3d3d3d;
+    line-height: 1.5em;
+}
+
+.foto{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: white;
+}
+
+.personal{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,auto);
+    height: 100%;
+}
+
+.pic1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.tlp{
+    width: 70%;
+    padding-top: 25%;
+    margin-left:15%;
+}
+
+.txttlp{
+    grid-column: 2/5;
+    grid-row: 1/2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    background: #009bde;
+    padding:10%;
+}
+
+.pic2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.mail{
+    width: 70%;
+    padding-top: 25%;
+    margin-left:15%;
+}
+
+.txtmail{
+    grid-column: 2/5;
+    grid-row: 2/3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #3d3d3d;
+    background: #e6e7e8;
+    padding: 10%;
+}
+
+.pic3{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.linkedin{
+    width: 70%;
+    padding-top: 25%;
+    margin-left:15%;
+}
+
+.txtlinkedin{
+    grid-column: 2/5;
+    grid-row: 3/4;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: white;
+    background: #009bde;
+    padding: 10%;
+}
+
+.pic4{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.github{
+    width: 70%;
+    padding-top: 25%;
+    margin-left:15%;
+}
+
+.txtgithub{
+    grid-column: 2/5;
+    grid-row: 4/5;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    color: #3d3d3d;
+    background: #e6e7e8;
+    padding: 10%;
+}
+
+.prog{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px;
+    height: 100%;
+}
+
+.hdprog{
+    grid-column: 1/2;
+    background: #009bde;
+    font-weight: bold;
+    color: white;
+    padding-left: 5%;
+    letter-spacing: 3px;
+    padding-top: 7.5%;
+    
+}
+
+.detailprog{
+    padding-left: 5%;
+    color: #3d3d3d;
+    word-spacing: 25px;
+}
+
+.skill{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px;
+    height: 100%;
+}
+
+.hdskill{
+    grid-column: 1/2;
+    background: #009bde;
+    font-weight: bold;
+    color: white;
+    padding-left: 5%;
+    letter-spacing: 3px;
+    padding-top: 7.5%;
+    
+}
+
+.detailskill{
+    padding-left: 5%;
+    color: #3d3d3d;
+}
